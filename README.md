@@ -97,13 +97,14 @@ Note:  No if-else, switch will be used
 
 Create AccountTest() class to test the Account:
 
+
 public class AccountTest()
 {
   public static void main (String[] args)
   {
-    Account myAccount = new Account("1234", 10000.0);
-
-    //set acct to active state
+  
+    Account myAccount = new Account("1234", 10000.0); //set acct to active state
+    
     myAccount.activate(); // displays "Account is already activated!"
 
     //Suspend the account
@@ -145,13 +146,15 @@ public class AccountTest()
 
 
 # 3. Java Source codes (Solution)
-![CSL322-18_WK5-6_STATE_PATTERN_CHUA_VINCE](https://github.com/VinceTedChua/statePattern/assets/142372312/b824055a-cf94-40c3-ac1f-7dca8ebfa241)
 
+![CSL322-18_WK5-6_STATE_PATTERN_CHUA_VINCE](https://github.com/VinceTedChua/statePattern/assets/142372312/f7e006e5-c58f-4a49-99b6-c00d4049049a)
 From the AccountTest Java can encapsulate the series of steps need to acquire.. In this step shows the sequence of what is to be done.
 
-![S1_CSL322-18_WK5-6_STATE_PATTERN_CHUA_VINCE](https://github.com/VinceTedChua/statePattern/assets/142372312/f3a228b4-0a96-46d5-a5a6-baa27f646162)
+
+![S1_CSL322-18_WK5-6_STATE_PATTERN_CHUA_VINCE](https://github.com/VinceTedChua/statePattern/assets/142372312/46bc2520-86ab-4f30-9cd4-e36f1502b103)
 These first series of steps shows how Activate, Suspend, Activate, Deposit and Withdraw was accomplished.
 
-![S2_CSL322-18_WK5-6_STATE_PATTERN_CHUA_VINCE](https://github.com/VinceTedChua/statePattern/assets/142372312/7e7d25fd-3f3d-426b-a5cd-926c2b1b515d)
+
+![S2_CSL322-18_WK5-6_STATE_PATTERN_CHUA_VINCE](https://github.com/VinceTedChua/statePattern/assets/142372312/c50d658e-f6f2-4774-b325-a32018a40cd7)
 Next, it was followed by the Close, Activate, Suspend, Withdraw and Deposit sequence.
 
