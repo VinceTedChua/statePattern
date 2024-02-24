@@ -103,10 +103,10 @@ public class AccountTest()
   {
     Account myAccount = new Account("1234", 10000.0);
 
-    //Sets the Account to Active State
+    //set acct to active state
     myAccount.activate(); // displays "Account is already activated!"
 
-    //Terminates the Account
+    //Suspend the account
     myAccount.suspend(); //displays "Account is suspended!"
 
     //Activate the account
@@ -119,7 +119,7 @@ public class AccountTest()
     myAccount.withdraw(100.0);// update balance and displays account number and // current balance. Call the toString() method in withdraw().
 
     //Close the account()
-    myAccount.close() //displays "Account is closed!"
+    myAccount.close() //displays "Account is already closed!"
 
     //Activate the account
     myAccount.activate() // Displays "You cannot activate a closed account!"
