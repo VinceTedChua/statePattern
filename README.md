@@ -4,7 +4,7 @@
 
 The state design pattern is a behavioral pattern that allows an object to change its behavior when its internal state changes. Instead of having multiple conditional statements within the object's code, each state becomes a separate object responsible for handling its specific behavior. This makes the code more maintainable, extensible, and easier to understand.
 
-Benefits
+# Benefits
 
 The state design pattern offers several valuable benefits:
 
