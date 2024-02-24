@@ -139,7 +139,7 @@ public class AccountTest()
 
 
 # 2. UML Diagram
-<img width="1717" alt="CSL322-18_WK5-6_STATE_PATTERN_UML_CHUA" src="https://github.com/VinceTedChua/statePattern/assets/142372312/2dabdb9a-c14f-4c18-9410-55a76814f861">
+<img width="1718" alt="CSL322-18_WK5-6_STATE_PATTERN_UML_CHUA" src="https://github.com/VinceTedChua/statePattern/assets/142372312/28bcd392-dabf-4643-93c3-ad4679e04732">
 
 
 # 3. Java Source codes (Solution)
