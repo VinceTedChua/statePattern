@@ -3,7 +3,7 @@ public class AccountTest {
     public static void main (String[] args){
 
         //Vince Ted Matthew D. Chua
-        //Feb 23, 2024
+        //Feb 24, 2024
         //STATE PATTERN
         Account myAccount = new Account("1234", 10000.0);
         myAccount.activate();
