@@ -1,6 +1,6 @@
 public class SuspendedState implements AccountState
 {
-    
+    //Suspended state disables most of the features.
     public void deposit(Double depositAmount, Account account)
     {
         System.out.println("You cannot deposit on a suspended account!: " + depositAmount
