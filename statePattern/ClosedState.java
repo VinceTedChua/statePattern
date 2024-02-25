@@ -1,6 +1,6 @@
 public class ClosedState implements AccountState
 {
-    //Close State disables most of the features..
+    //Closed State disables most of the features..
         public void deposit(Double depositAmount, Account account)
         {
             System.out.println("\nYou cannot deposit on a closed account!" +
